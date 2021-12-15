@@ -694,7 +694,7 @@ section .location {
   .institution::before,
   .organization::before,
   .awarder::before {
-    content: "at ";
+    content: "bei ";
   }
   .main-summary {
     padding: 0;
