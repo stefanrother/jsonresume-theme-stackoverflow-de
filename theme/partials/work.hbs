@@ -68,6 +68,16 @@
       	{{/each}}
     	</ul>
     	{{/if}}
+			{{#if url}}
+    	<span class="url">
+    		<a target="_blank" href="{{url}}">{{url}}</a>
+    	</span> {{/if}} {{#if keywords.length}}
+    	<ul class="keywords">
+      	{{#each keywords}}
+      	<li>{{.}}</li>
+      	{{/each}}
+    	</ul>
+    	{{/if}}
     	<div class="item" id="work-item">
         {{#if summary}}
         <div class="summary">{{paragraphSplit summary}}</div>
